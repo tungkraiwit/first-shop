@@ -1,10 +1,17 @@
 {
-  "name": "hello-react",
-  "version": "0.1.0",
+  "name": "gundam-man",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.7",
+    "map": "^1.0.1",
+    "node-sass": "^4.13.0",
+    "password-hash": "^1.2.2",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
+    "react-router": "^3.2.5",
     "react-scripts": "3.2.0"
   },
   "scripts": {
@@ -13,6 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "proxy": "http://localhost:3001",
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -27,5 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2"
   }
 }
